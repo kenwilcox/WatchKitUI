@@ -13,6 +13,7 @@
 		BE3424BC1AB2A3220069016F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3424BB1AB2A3220069016F /* Images.xcassets */; };
 		BE3424BF1AB2A3220069016F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3424BD1AB2A3220069016F /* LaunchScreen.xib */; };
 		BE3424CB1AB2A3220069016F /* WatchKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3424CA1AB2A3220069016F /* WatchKitUITests.swift */; };
+		BE3424D61AB2A3EE0069016F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE3424D41AB2A3EE0069016F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE3424C41AB2A3220069016F /* WatchKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3424C91AB2A3220069016F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3424CA1AB2A3220069016F /* WatchKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitUITests.swift; sourceTree = "<group>"; };
+		BE3424D41AB2A3EE0069016F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE3424D51AB2A3EE0069016F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE3424A61AB2A3220069016F = {
 			isa = PBXGroup;
 			children = (
+				BE3424D41AB2A3EE0069016F /* LICENSE */,
+				BE3424D51AB2A3EE0069016F /* README.md */,
 				BE3424B11AB2A3220069016F /* WatchKitUI */,
 				BE3424C71AB2A3220069016F /* WatchKitUITests */,
 				BE3424B01AB2A3220069016F /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE3424BA1AB2A3220069016F /* Main.storyboard in Resources */,
 				BE3424BF1AB2A3220069016F /* LaunchScreen.xib in Resources */,
+				BE3424D61AB2A3EE0069016F /* LICENSE in Resources */,
 				BE3424BC1AB2A3220069016F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
