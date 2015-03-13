@@ -20,6 +20,16 @@ class LabelInterfaceController: WKInterfaceController {
     // Configure interface objects here.
     myLabel.setText("Hello World")
     myLabel.setTextColor(UIColor.redColor())
+    
+    // Walk all the fonts
+    for family in UIFont.familyNames() as [String] {
+      println("family \(family)")
+      
+      for font in UIFont.fontNamesForFamilyName(family) {
+        println("  \(font)")
+      }
+    }
+
   }
   
   override func willActivate() {
