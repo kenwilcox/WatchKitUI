@@ -15,6 +15,9 @@
                             <fontDescription key="font" type="boldSystem" pointSize="16"/>
                         </label>
                     </items>
+                    <connections>
+                        <outlet property="myLabel" destination="UYz-we-1vE" id="Kgx-2h-XiA"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
