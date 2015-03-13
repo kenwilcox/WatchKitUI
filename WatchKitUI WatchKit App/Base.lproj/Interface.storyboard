@@ -8,7 +8,18 @@
         <!--Label Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="LabelInterfaceController" customModule="WatchKitUI_WatchKit_Extension"/>
+                <controller id="AgC-eL-Hgc" customClass="LabelInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
+                    <items>
+                        <label width="128.5" height="34.5" alignment="left" text="Label" id="UYz-we-1vE">
+                            <variation key="device=watch38mm" text="38mm Label">
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </variation>
+                            <variation key="device=watch42mm" text="42mm Label">
+                                <color key="textColor" red="0.29570541369999997" green="0.88157242059999996" blue="0.54719033939999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </variation>
+                        </label>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>
