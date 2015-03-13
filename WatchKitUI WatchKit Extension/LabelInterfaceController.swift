@@ -20,15 +20,21 @@ class LabelInterfaceController: WKInterfaceController {
     // Configure interface objects here.
     myLabel.setText("Hello World")
     myLabel.setTextColor(UIColor.redColor())
+  
+//    // Walk all the fonts
+//    for family in UIFont.familyNames() as [String] {
+//      println("family \(family)")
+//      
+//      for font in UIFont.fontNamesForFamilyName(family) {
+//        println("  \(font)")
+//      }
+//    }
     
-    // Walk all the fonts
-    for family in UIFont.familyNames() as [String] {
-      println("family \(family)")
-      
-      for font in UIFont.fontNamesForFamilyName(family) {
-        println("  \(font)")
-      }
-    }
+    var boldFont = UIFont(name: "Exo-Bold", size: 15.0)!
+    var attributesDictionary = [NSFontAttributeName : boldFont]
+    var attributedString = NSAttributedString(string: "Hello Class", attributes: attributesDictionary)
+    
+    myLabel.setAttributedText(attributedString)
 
   }
   
