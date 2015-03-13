@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="LabelInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
                     <items>
-                        <label width="128.5" height="71.5" alignment="left" text="This is my Label that is really long" textAlignment="center" numberOfLines="0" id="UYz-we-1vE">
+                        <label width="136" height="71.5" alignment="left" text="This is my Label that is really long" textAlignment="center" numberOfLines="0" id="UYz-we-1vE">
                             <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="boldSystem" pointSize="16"/>
                         </label>
