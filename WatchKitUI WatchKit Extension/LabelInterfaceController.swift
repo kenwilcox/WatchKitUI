@@ -31,7 +31,10 @@ class LabelInterfaceController: WKInterfaceController {
 //    }
     
     let boldFont = UIFont(name: "Exo-Bold", size: 15.0)!
-    let attributesDictionary = [NSFontAttributeName : boldFont, NSForegroundColorAttributeName : UIColor.redColor()]
+    let attributesDictionary = [
+      NSFontAttributeName : boldFont,
+      NSForegroundColorAttributeName : UIColor.redColor()
+    ]
     let attributedString = NSAttributedString(string: "Hello Class", attributes: attributesDictionary)
     
     myLabel.setAttributedText(attributedString)
