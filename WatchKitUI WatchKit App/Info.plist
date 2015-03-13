@@ -29,6 +29,12 @@
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>com.k3nx.WatchKitUI</string>
+	<key>UIAppFonts</key>
+	<array>
+    <string>Exo-Black.otf</string>
+    <string>Exo-BlackItalic.otf</string>
+    <string>Exo-Bold.otf</string>
+	</array>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
