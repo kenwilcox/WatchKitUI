@@ -26,7 +26,7 @@
             <objects>
                 <controller id="avn-2J-syI" customClass="ButtonInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
                     <items>
-                        <button width="1" height="79.5" alignment="left" title="Press Me" id="7yk-7o-Shm">
+                        <button width="1" height="105.5" alignment="left" title="Press Me" backgroundImage="EasyButton" id="7yk-7o-Shm">
                             <color key="titleColor" red="1" green="0.58953694812336677" blue="0.021298048392420776" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
                             <connections>
