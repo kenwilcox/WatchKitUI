@@ -34,6 +34,15 @@ class ButtonInterfaceController: WKInterfaceController {
   }
   
   @IBAction func buttonPressed() {
-
+    myButton.setEnabled(false)
+    
+    let blowUpImage = UIImage(named: "BlowUp")
+    myButton.setBackgroundImage(blowUpImage)
+    
+    let boldItalicFont = UIFont(name: "Exo-BlackItalic", size: 15.0)!
+    let attributesDictionary = [NSFontAttributeName : boldItalicFont]
+    let attributedString = NSAttributedString(string: "Uh Oh", attributes: attributesDictionary)
+    
+    myButton.setAttributedTitle(attributedString)
   }
 }
