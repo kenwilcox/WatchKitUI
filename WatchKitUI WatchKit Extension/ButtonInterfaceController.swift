@@ -18,6 +18,9 @@ class ButtonInterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
+    myButton.setTitle("Don't Press!")
+    myButton.setBackgroundImage(nil)
+    myButton.setBackgroundColor(UIColor.lightGrayColor())
   }
   
   override func willActivate() {
@@ -31,6 +34,6 @@ class ButtonInterfaceController: WKInterfaceController {
   }
   
   @IBAction func buttonPressed() {
-    
+
   }
 }
