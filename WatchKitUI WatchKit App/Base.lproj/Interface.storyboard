@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="avn-2J-syI">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZWq-3x-3HD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="22n-hj-I1X">
+            <objects>
+                <controller id="ZWq-3x-3HD">
+                    <items>
+                        <button width="1" alignment="left" title="Label" id="zGX-kJ-eXy">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="modal" id="N2v-7F-26B"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Button" id="SDe-9c-2Hz">
+                            <connections>
+                                <segue destination="avn-2J-syI" kind="modal" id="apN-NY-Dmm"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="17" y="460"/>
+        </scene>
         <!--Label Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
