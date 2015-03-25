@@ -19,9 +19,9 @@ class SliderInterfaceController: WKInterfaceController {
     
     // Configure interface objects here.
     self.mySlider.setEnabled(true)
-    self.mySlider.setValue(2.0)
+    self.mySlider.setValue(2)
     self.mySlider.setColor(UIColor.orangeColor())
-    self.mySlider.setNumberOfSteps(10)
+    self.mySlider.setNumberOfSteps(5)
   }
   
   override func willActivate() {
