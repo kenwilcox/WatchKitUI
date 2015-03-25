@@ -52,8 +52,15 @@
             <objects>
                 <controller id="XeB-a1-TSq" customClass="SwitchInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
                     <items>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="RGc-pX-GQ3"/>
+                        <switch width="1" alignment="left" value="YES" title="Lights" id="RGc-pX-GQ3">
+                            <connections>
+                                <action selector="lightSwitchTapped:" destination="XeB-a1-TSq" id="kqt-q4-fYz"/>
+                            </connections>
+                        </switch>
                     </items>
+                    <connections>
+                        <outlet property="lightSwitch" destination="RGc-pX-GQ3" id="8DD-ho-vaW"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="305" y="790"/>

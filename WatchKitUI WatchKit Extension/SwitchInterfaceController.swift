@@ -12,10 +12,14 @@ import Foundation
 
 class SwitchInterfaceController: WKInterfaceController {
   
+  @IBOutlet weak var lightSwitch: WKInterfaceSwitch!
+  
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
+    lightSwitch.setColor(UIColor.blueColor())
+    lightSwitch.setOn(false)
   }
   
   override func willActivate() {
@@ -28,4 +32,8 @@ class SwitchInterfaceController: WKInterfaceController {
     super.didDeactivate()
   }
   
+  @IBAction func lightSwitchTapped(value: Bool) {
+    lightSwitch.setColor(UIColor.orangeColor())
+    lightSwitch.setEnabled(false)
+  }
 }
