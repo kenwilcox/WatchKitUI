@@ -57,8 +57,14 @@
                                 <action selector="lightSwitchTapped:" destination="XeB-a1-TSq" id="kqt-q4-fYz"/>
                             </connections>
                         </switch>
+                        <switch width="1" alignment="left" value="YES" title="Day" id="BIE-1q-gHO">
+                            <connections>
+                                <action selector="daySwitchTapped:" destination="XeB-a1-TSq" id="Q2m-D4-i2Q"/>
+                            </connections>
+                        </switch>
                     </items>
                     <connections>
+                        <outlet property="daySwitch" destination="BIE-1q-gHO" id="bkn-KM-li6"/>
                         <outlet property="lightSwitch" destination="RGc-pX-GQ3" id="8DD-ho-vaW"/>
                     </connections>
                 </controller>
