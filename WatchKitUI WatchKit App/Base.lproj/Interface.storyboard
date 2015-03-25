@@ -20,10 +20,15 @@
                                 <segue destination="avn-2J-syI" kind="modal" id="apN-NY-Dmm"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Switches" id="JQP-kx-FH7">
+                            <connections>
+                                <segue destination="XeB-a1-TSq" kind="modal" id="PWy-18-70S"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="17" y="460"/>
+            <point key="canvasLocation" x="-14" y="628"/>
         </scene>
         <!--Label Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -40,6 +45,18 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="305" y="338"/>
+        </scene>
+        <!--Switch Interface Controller-->
+        <scene sceneID="ERy-6B-gJs">
+            <objects>
+                <controller id="XeB-a1-TSq" customClass="SwitchInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
+                    <items>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="RGc-pX-GQ3"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="305" y="790"/>
         </scene>
         <!--Button Interface Controller-->
         <scene sceneID="e37-yg-3X1">
@@ -59,7 +76,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="305" y="597"/>
+            <point key="canvasLocation" x="305" y="557"/>
         </scene>
     </scenes>
 </document>
