@@ -25,6 +25,11 @@
                                 <segue destination="XeB-a1-TSq" kind="modal" id="PWy-18-70S"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Slider" id="9Py-zt-zjn">
+                            <connections>
+                                <segue destination="fub-k7-l1e" kind="modal" id="lvd-Pr-qnf"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -45,7 +50,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="305" y="338"/>
+            <point key="canvasLocation" x="303" y="407"/>
         </scene>
         <!--Switch Interface Controller-->
         <scene sceneID="ERy-6B-gJs">
@@ -69,7 +74,26 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="305" y="790"/>
+            <point key="canvasLocation" x="288" y="962"/>
+        </scene>
+        <!--Slider Interface Controller-->
+        <scene sceneID="Bre-MG-ynw">
+            <objects>
+                <controller id="fub-k7-l1e" customClass="SliderInterfaceController" customModule="WatchKitUI_WatchKit_Extension">
+                    <items>
+                        <slider width="1" alignment="left" value="1" maximum="9" steps="1" id="qJg-2t-Lkj">
+                            <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="sliderDidSlide:" destination="fub-k7-l1e" id="xxd-1e-aNJ"/>
+                            </connections>
+                        </slider>
+                    </items>
+                    <connections>
+                        <outlet property="mySlider" destination="qJg-2t-Lkj" id="4Jg-Z6-X4e"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-14" y="1029"/>
         </scene>
         <!--Button Interface Controller-->
         <scene sceneID="e37-yg-3X1">
@@ -89,7 +113,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="305" y="557"/>
+            <point key="canvasLocation" x="313" y="652"/>
         </scene>
     </scenes>
 </document>

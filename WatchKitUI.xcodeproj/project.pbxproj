@@ -27,6 +27,7 @@
 		BE34250C1AB2B3700069016F /* Exo-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE3425091AB2B3700069016F /* Exo-BlackItalic.otf */; };
 		BE34250D1AB2B3700069016F /* Exo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE34250A1AB2B3700069016F /* Exo-Bold.otf */; };
 		BEDD892E1AC2642700AB8FDB /* SwitchInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD892D1AC2642700AB8FDB /* SwitchInterfaceController.swift */; };
+		BEDD89301AC2686400AB8FDB /* SliderInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD892F1AC2686400AB8FDB /* SliderInterfaceController.swift */; };
 		BEFFED941AB936AD00627DBB /* ButtonInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFED931AB936AD00627DBB /* ButtonInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		BE3425091AB2B3700069016F /* Exo-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-BlackItalic.otf"; sourceTree = "<group>"; };
 		BE34250A1AB2B3700069016F /* Exo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Bold.otf"; sourceTree = "<group>"; };
 		BEDD892D1AC2642700AB8FDB /* SwitchInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchInterfaceController.swift; sourceTree = "<group>"; };
+		BEDD892F1AC2686400AB8FDB /* SliderInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderInterfaceController.swift; sourceTree = "<group>"; };
 		BEFFED931AB936AD00627DBB /* ButtonInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 				BE3424FD1AB2A9AA0069016F /* LabelInterfaceController.swift */,
 				BEFFED931AB936AD00627DBB /* ButtonInterfaceController.swift */,
 				BEDD892D1AC2642700AB8FDB /* SwitchInterfaceController.swift */,
+				BEDD892F1AC2686400AB8FDB /* SliderInterfaceController.swift */,
 				BE3424FC1AB2A9AA0069016F /* WatchKitUI WatchKit Extension-Bridging-Header.h */,
 			);
 			path = "WatchKitUI WatchKit Extension";
@@ -451,6 +454,7 @@
 			files = (
 				BE3424FE1AB2A9AA0069016F /* LabelInterfaceController.swift in Sources */,
 				BEDD892E1AC2642700AB8FDB /* SwitchInterfaceController.swift in Sources */,
+				BEDD89301AC2686400AB8FDB /* SliderInterfaceController.swift in Sources */,
 				BEFFED941AB936AD00627DBB /* ButtonInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
